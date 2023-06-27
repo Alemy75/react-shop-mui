@@ -1,0 +1,64 @@
+{
+    "films": [
+        {
+            "id": 1,
+            "title": "Диван Shiva",
+            "photo_url": "https://cdn0.divan.ru/img/v1/I8DHu5sTDGU98tCmg5gZ0o5L6-_BImN6dWIg__oV04w/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxNzA4NjIucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 2,
+            "title": "Тумба Orto",
+            "photo_url": "https://cdn0.divan.ru/img/v1/o0jNS4t7f5KJTOTF5GHdtGsfE4m0M3AfNxtf_iaNPQE/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ2NzM1NDgucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 3,
+            "title": "Кровать Zuma",
+            "photo_url": "https://cdn0.divan.ru/img/v1/2-DD0wAfQ_qNFLV2l5bVj-wpP6Fwuy7bIVRqkDkuubA/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ1MTk1ODEucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 4,
+            "title": "Полка Detero",
+            "photo_url": "https://cdn0.divan.ru/img/v1/U8L7CiNJfSOtgWrZ_bHVB5cbKTzeTSuC2FnZIRfUyjE/t:0::0:0/pd:61:80:61:80/rs:fit:264:154:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ3MDg2NzEucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 5,
+            "title": "Диван Yazi",
+            "photo_url": "https://cdn0.divan.ru/img/v1/SCzrlI-DvJO6B-RntQ0sFFRM_aE7nhY771UF776Dh5o/t:0::0:0/pd:60:30:60:30/rs:fit:364:156:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQyMDMxNDYucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 6,
+            "title": "Тумба Halo",
+            "photo_url": "https://cdn0.divan.ru/img/v1/AccmeRcfY7RBc-Toztk00mctxDxq2XIC3L1HwisJl28/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ2NTkxNzcucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 7,
+            "title": "Тумба Vinio",
+            "photo_url": "https://cdn0.divan.ru/img/v1/0tRiJcNVeGe5l8X936O7DOA2LtGgxcpUkPk0PkTWkVY/t:0::0:0/pd:61:80:61:80/rs:fit:264:154:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:95/czM6Ly9kaXZhbi9wcm9kdWN0LzQxNzg4NDYucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 8,
+            "title": "Диван Selena",
+            "photo_url": "https://cdn0.divan.ru/img/v1/p6YR9v0O0nZtS8MpdWyh3AgK0L1hlGFFGj4iXaf8Ys0/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ1MzY1NDgucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 5,
+            "title": "Обувница Foota",
+            "photo_url": "https://cdn0.divan.ru/img/v1/lf02jwqSx8Gx_voiN2DxgKHD6M6vvnp_vnhfu9yLbJY/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ2NDY2OTMucG5n.jpg",
+            "price": 1000
+        },
+        {
+            "id": 4,
+            "title": "Тумба",
+            "photo_url": "https://cdn0.divan.ru/img/v1/-UDSutwjHxxPe5gNNiUhsAUtTVqGZ8QZ7o46sLV28Nw/t:0::0:0/pd:30:30:30:30/rs:fit:364:216:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQ2NjIxMjUucG5n.jpg",
+            "price": 1000
+        }
+    ]
+}
