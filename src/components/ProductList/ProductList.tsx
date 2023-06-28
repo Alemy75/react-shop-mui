@@ -12,15 +12,13 @@ const ProductList: FC<Props> = ({ sx }) => {
     const [items, setItems] = useState<Array<Product>>([])
     const [isLoading, setIsLoading] = useState(false)
 
-    const [page, setPage] = useState(1)
-
     useEffect(() => {
         setIsLoading(true)
         const timer = setTimeout(() => {
-            axios.get('http://localhost:3000/films', {
+            axios.get('http://localhost:3000/products', {
                 params: {
                     _page: 1,
-                    _limit: 4
+                    _limit: 10
                 }
             }).then((res) => {
                 setItems(res.data)
