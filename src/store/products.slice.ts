@@ -1,36 +1,55 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import {
+    createSlice,
+    createAsyncThunk,
+} from '@reduxjs/toolkit'
 import { Product } from '../models/Product.model'
 import { productsApi } from '../api/products.api'
 
-const getAll = createAsyncThunk('products/getAll', async (_, thunkAPI) => {
+export const fetchProducts = createAsyncThunk<
+    Product[],
+    undefined,
+    { rejectValue: string }
+>('products/fetchProducts', async (_, { rejectWithValue }) => {
     try {
         const response = await productsApi.getAll()
-
-        if (response.status != 200) {
-            throw new Error(`Server error. Status: ${response.status}`)
-        }
-
         return response.data
     } catch (error) {
-        thunkAPI.rejectWithValue(error.message)
+        return rejectWithValue(error.message)
     }
 })
 
 type initialState = {
     products: Array<Product> | []
     status: number | null
+    loading: boolean
+    error: string | undefined
 }
 
 const initialState: initialState = {
     products: [],
-    status: null
+    status: null,
+    loading: false,
+    error: undefined,
 }
 
 const productsSlice = createSlice({
     initialState,
     name: 'products',
-    reducers: {
-
+    reducers: {},
+    extraReducers: (builder) => {
+        builder
+            .addCase(fetchProducts.pending, (state) => {
+                state.loading = true
+                state.error = undefined
+            })
+            .addCase(fetchProducts.fulfilled, (state, action) => {
+                state.products = action.payload
+                state.loading = false
+            })
+            .addCase(fetchProducts.rejected, (state, action) => {
+                state.error = action.payload
+                state.loading = false
+            })
     },
 })
 
